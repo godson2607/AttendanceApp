@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "StudentAttendance",
+    "slug": "StudentAttendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.attendance.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": [
+      "studentattendance",
+      "com.googleusercontent.apps.126361595587-pg329hajma8umor7s2557h1uhv3fl2h8"
+    ],
+    "plugins": [
+      "expo-web-browser",
+      "@react-native-google-signin/google-signin"
+    ]
+  }
+}
